@@ -18,23 +18,23 @@ sections:
         label: Email
         default_value: Your email address
         is_required: true
-      - input_type: select
-        name: subject
-        label: Subject
-        default_value: Please select
-        options:
-          - Error on the site
-          - Sponsorship
-          - Other
+      # - input_type: select
+      #   name: subject
+      #   label: Subject
+      #   default_value: Please select
+      #   options:
+      #     - Error on the site
+      #     - Sponsorship
+      #     - Other
       - input_type: textarea
         name: message
         label: Message
         default_value: Your message
-      - input_type: checkbox
-        name: consent
-        label: >-
-          I understand that this form is storing my submitted information so I
-          can be contacted.
+      # - input_type: checkbox
+      #   name: consent
+      #   label: >-
+      #     I understand that this form is storing my submitted information so I
+      #     can be contacted.
     submit_label: Send Message
 template: advanced
 ---

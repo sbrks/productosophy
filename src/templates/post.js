@@ -23,6 +23,8 @@ export default class Post extends React.Component {
               <article className="post post-full">
                 <header className="post-header inner-sm">
                   <h1 className="post-title underline">{_.get(this.props, 'pageContext.frontmatter.title', null)}</h1>
+                 <div><p><time className="published"
+                    dateTime={moment(_.get(this.props, 'pageContext.frontmatter.date', null)).strftime('%Y-%m-%d %H:%M')}>{moment(_.get(this.props, 'pageContext.frontmatter.date', null)).strftime('%A, %B %e, %Y')}</time></p></div>
                   {_.get(this.props, 'pageContext.frontmatter.subtitle', null) && (
                   <div className="post-subtitle">
                     {htmlToReact(_.get(this.props, 'pageContext.frontmatter.subtitle', null))}

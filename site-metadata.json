@@ -3,8 +3,8 @@
     "layout_style": "overflow",
     "palette": "blue",
     "header": {
-        "title": "Stackbit Fresh",
-        "tagline": "Header Tagline",
+        "title": "Productosophy",
+        "tagline": "Living the good PM life",
         "profile_img": "images/avatar.png",
         "background": "dark",
         "has_nav": true,
@@ -17,11 +17,6 @@
             {
                 "label": "Blog",
                 "url": "/blog/",
-                "style": "link"
-            },
-            {
-                "label": "Style Guide",
-                "url": "/style-guide/",
                 "style": "link"
             },
             {
@@ -39,43 +34,36 @@
         "social_links": [
             {
                 "label": "Twitter",
-                "url": "https://twitter.com/",
+                "url": "https://twitter.com/thestephbrooks",
                 "style": "icon",
                 "icon_class": "fa-twitter",
                 "new_window": true
             },
             {
                 "label": "Instagram",
-                "url": "https://www.instagram.com/",
+                "url": "https://www.instagram.com/ssbrks",
                 "style": "icon",
                 "icon_class": "fa-instagram",
                 "new_window": true
             },
             {
-                "label": "GitHub",
-                "url": "https://github.com/",
-                "style": "icon",
-                "icon_class": "fa-github",
-                "new_window": true
-            },
-            {
                 "label": "LinkedIn",
-                "url": "https://www.linkedin.com/",
+                "url": "https://www.linkedin.com/stephaniesbrooks",
                 "style": "icon",
                 "icon_class": "fa-linkedin",
                 "new_window": true
             },
-            {
-                "label": "DEV",
-                "url": "https://dev.to/",
+             {
+                "label": "GitHub",
+                "url": "https://github.com/sbrks",
                 "style": "icon",
-                "icon_class": "fa-dev",
+                "icon_class": "fa-github",
                 "new_window": true
             }
         ]
     },
     "footer": {
-        "content": "&copy; All rights reserved.",
+        "content": "Copyright 2020 &copy; All rights reserved.",
         "links": [
             {
                 "label": "Made with Stackbit.",
@@ -85,5 +73,5 @@
             }
         ]
     },
-    "title": "Stackbit Fresh Theme"
+    "title": "Productosophy"
 }
